@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "Tinyhouse",
-    "script": "src/index.js",
+    "script": "src/index.ts",
     "restart_delay": 500,
     "merge_logs": true,
     "log_file": "logs/server.log",

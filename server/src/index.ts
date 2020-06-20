@@ -19,13 +19,11 @@ app.post('/delete-listing', (req, res) => {
   const id: string = req.body.id;
 
   for (let i = listings.length - 1; i >= 0; i--) {
-    console.log(id)
-    console.log(listings[i].id)
     if (listings[i].id == id) {
       return res.send(listings.splice(i, 1));
     }
   }
-  
+
   return res.send('Failed to delete listing')
 });
 

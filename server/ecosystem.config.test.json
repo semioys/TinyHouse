@@ -13,10 +13,10 @@
     "env": {
       "PORT": 3000,
       "NODE_ENV": "development",
-      "DB_USER": "tinyhouse",
-      "DB_PASSWORD": "Z7qwQH7Hx6i5GNUC",
-      "DB_NAME": "tinyhouse",
-      "DB_CLUSTER": "mongocluster.qmu9a"
+      "DB_USER": "username",
+      "DB_PASSWORD": "password",
+      "DB_NAME": "db",
+      "DB_CLUSTER": "cluster"
     },
     "env_production": {
       "PORT": 80,
